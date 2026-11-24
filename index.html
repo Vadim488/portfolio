@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Терехова Вадима Алексеевича — начинающего веб-разработчика.">
+  <title>Терехов Вадим — Портфолио</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <a class="logo" href="#home"><span>&lt;</span> VA <span>/&gt;</span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#education">Образование</a>
+      <a class="nav-contact" href="#contacts">Связаться</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="status"><span class="status-dot"></span> Открыт к новым возможностям</div>
+        <p class="eyebrow">ПОРТФОЛИО / 2026</p>
+        <h1>Терехов<br><span>Вадим</span> Алексеевич</h1>
+        <h2>Начинающий <span class="accent">веб-разработчик</span></h2>
+        <p class="hero-description">Студент 4 курса по специальности «Информационные системы и программирование». Создаю сайты, работаю с базами данных и изучаю разработку веб-приложений.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Посмотреть проекты <span>↗</span></a>
+          <a class="button button-secondary" href="#contacts">Связаться со мной</a>
+        </div>
+      </div>
+      <div class="hero-card-wrap">
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><p>about-me.js</p></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">'Вадим Терехов'</span>,
+  city: <span class="code-green">'Сергиев Посад'</span>,
+  specialty: <span class="code-green">'09.02.07'</span>,
+  skills: [
+    <span class="code-green">'HTML'</span>,
+    <span class="code-green">'CSS'</span>,
+    <span class="code-green">'JavaScript'</span>,
+    <span class="code-green">'PHP'</span>,
+    <span class="code-green">'Python'</span>,
+    <span class="code-green">'SQL'</span>
+  ],
+  goal: <span class="code-green">'Развиваться в IT'</span>
+};
+
+<span class="code-purple">console</span>.log(developer);<span class="cursor">▌</span></code></pre>
+        </div>
+        <div class="floating-badge"><span>✦</span> Учусь · Создаю · Развиваюсь</div>
+      </div>
+      <a class="scroll-hint" href="#about">Листайте вниз <span>↓</span></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ЗНАКОМСТВО</p>
+        <h2>Обо <span class="accent">мне</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-mark">VA<span>.</span></div>
+        <div class="about-copy">
+          <h3>Привет! Я Вадим — будущий специалист в сфере информационных технологий.</h3>
+          <p>Я учусь на 4 курсе Сергиево-Посадского колледжа по специальности 09.02.07 «Информационные системы и программирование». Во время обучения знакомлюсь с разными направлениями разработки и закрепляю знания на практике.</p>
+          <p>Мне интересно создавать функциональные и удобные сайты, работать с логикой приложений и базами данных. В этом портфолио собраны мои учебные и практические проекты.</p>
+          <div class="facts">
+            <div><span>Город</span><strong>Сергиев Посад</strong></div>
+            <div><span>Курс</span><strong>4 курс</strong></div>
+            <div><span>Окончание</span><strong>2027 год</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / ИНСТРУМЕНТЫ</p>
+        <h2>Мои <span class="accent">навыки</span></h2>
+        <p class="section-subtitle">Технологии и инструменты, с которыми я знаком и работаю в учебных проектах.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML</h3><p>Структура и семантическая разметка веб-страниц.</p><span class="skill-tag">Веб-разработка</span></article>
+        <article class="skill-card"><div class="skill-icon">▧</div><h3>CSS</h3><p>Стилизация интерфейсов, Flexbox, Grid и адаптивность.</p><span class="skill-tag">Веб-разработка</span></article>
+        <article class="skill-card"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Интерактивность, обработка событий и логика страниц.</p><span class="skill-tag">Программирование</span></article>
+        <article class="skill-card"><div class="skill-icon">₱</div><h3>PHP</h3><p>Основы серверной разработки и обработка данных.</p><span class="skill-tag">Backend</span></article>
+        <article class="skill-card"><div class="skill-icon">Py</div><h3>Python</h3><p>Основы программирования, алгоритмы и работа с данными.</p><span class="skill-tag">Программирование</span></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>SQL и базы данных</h3><p>Запросы к базам данных и основы хранения информации.</p><span class="skill-tag">Базы данных</span></article>
+        <article class="skill-card"><div class="skill-icon">↔</div><h3>Адаптивная вёрстка</h3><p>Подготовка страниц для компьютеров, планшетов и телефонов.</p><span class="skill-tag">Веб-дизайн</span></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / ПРАКТИКА</p>
+        <h2>Мои <span class="accent">проекты</span></h2>
+        <p class="section-subtitle">Некоторые работы, выполненные во время обучения и самостоятельной практики.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-game"><span class="visual-label">GAME / JS</span><div class="playing-cards"><b>21</b><span>♠</span><span>♥</span></div></div>
+          <div class="project-info"><p class="project-type">01 — ИГРА</p><h3>«Двадцать одно»</h3><p>Карточная игра, в которой игрок стремится набрать сумму очков как можно ближе к 21, не превышая её.</p><div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-auto"><span class="visual-label">WEB / DATABASE</span><div class="auto-symbol">AUTO<span>_SERVICE</span></div></div>
+          <div class="project-info"><p class="project-type">02 — ВЕБ-САЙТ</p><h3>Сайт автосервиса</h3><p>Сайт автосервиса с подключением базы данных. Проект объединяет пользовательский интерфейс и работу с данными.</p><div class="tags"><span>HTML</span><span>CSS</span><span>PHP</span><span>SQL</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-build"><span class="visual-label">DESIGN / LAYOUT</span><div class="build-symbol">BUILD<span>TECH</span></div></div>
+          <div class="project-info"><p class="project-type">03 — ДИЗАЙН И ВЁРСТКА</p><h3>Продажа строительной техники</h3><p>Разработка дизайна и вёрстка сайта для продажи строительной техники с акцентом на удобную подачу товаров.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Адаптивность</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-bot"><span class="visual-label">AUTOMATION / VK</span><div class="bot-symbol">VK<span>BOT</span></div></div>
+          <div class="project-info"><p class="project-type">04 — ЧАТ-БОТ</p><h3>Бот ВКонтакте</h3><p>Создание бота для социальной сети ВКонтакте. Проект посвящён автоматизации общения и обработке пользовательских запросов.</p><div class="tags"><span>Python</span><span>API</span><span>Автоматизация</span></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-health"><span class="visual-label">FULL STACK / PYTHON</span><div class="health-symbol">ЗДОРОВЬЕ<span>+</span></div></div>
+          <div class="project-info"><p class="project-type">05 — ВЕБ-ПРИЛОЖЕНИЕ</p><h3>«Здоровье+» — онлайн-запись в клинику</h3><p>Веб-приложение частной клиники: регистрация и авторизация пациентов, запись к врачу, история визитов, отзывы и панель администратора.</p><div class="tags"><span>Python</span><span>Flask</span><span>SQLite</span><span>HTML</span><span>CSS</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-health-ui"><span class="visual-label">FRONTEND / WEB UI</span><div class="health-ui-symbol">HEALTH<span>+</span></div></div>
+          <div class="project-info"><p class="project-type">06 — САЙТ И ИНТЕРФЕЙС</p><h3>«Здоровье+» — интерфейс клиники</h3><p>Отдельная фронтенд-версия сайта клиники с главной страницей, формами регистрации и входа, историей посещений, записью и административным разделом.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-books"><span class="visual-label">FULL STACK / PYTHON</span><div class="books-symbol">ОБМЕНЯЙ<span>МЕНЯ</span></div></div>
+          <div class="project-info"><p class="project-type">07 — ВЕБ-ПЛАТФОРМА</p><h3>«Обменяй меня»</h3><p>Адаптивный сервис для размещения, поиска, продажи и обмена книг. Есть аккаунты пользователей, каталог с фильтрами, объявления, сообщения и модерация.</p><div class="tags"><span>Python</span><span>Flask</span><span>SQLite</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+      </div>
+      <p class="project-note">В портфолио представлены учебные проекты и их отдельные реализации. Серверные приложения Flask запускаются локально или на сервере с поддержкой Python.</p>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">04 / ОБУЧЕНИЕ</p>
+        <h2>Моё <span class="accent">образование</span></h2>
+      </div>
+      <div class="education-card">
+        <div class="education-year">2023 — 2027</div>
+        <div class="education-line"><span></span></div>
+        <div class="education-details"><p class="project-type">СРЕДНЕЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАНИЕ</p><h3>Сергиево-Посадский колледж</h3><p>Специальность 09.02.07</p><p class="muted">«Информационные системы и программирование»</p><span class="education-status">● Обучение продолжается · 4 курс</span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacts">
+      <div class="contact-box">
+        <p class="eyebrow">05 / ОБРАТНАЯ СВЯЗЬ</p>
+        <h2>Давайте <span class="accent">общаться</span></h2>
+        <p>Буду рад новым знакомствам, интересным задачам и возможностям для профессионального развития.</p>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com" class="contact-link"><span>Электронная почта</span><strong>Добавить email ↗</strong></a>
+          <a href="#" class="contact-link placeholder-link"><span>Telegram</span><strong>Добавить ссылку ↗</strong></a>
+          <a href="#" class="contact-link placeholder-link"><span>GitHub</span><strong>Добавить профиль ↗</strong></a>
+        </div>
+        <p class="contact-hint">Контактные данные пока не указаны. Их можно заменить в файле index.html.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home"><span>&lt;</span> VA <span>/&gt;</span></a><p>© 2026 Терехов Вадим Алексеевич</p><a href="#home">Наверх ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
